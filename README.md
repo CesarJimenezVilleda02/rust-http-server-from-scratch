@@ -40,19 +40,21 @@ making it a comprehensive package for a variety of web applications.
     Build the Project
     ```
 
-Compile the server using Cargo.
+2. **Compile the server using Cargo.**
 
+```sh
 cargo build --release Run the Server
+```
 
 Start the server with Cargo.
 
 cargo run Alternatively, run the compiled binary directly from the target/release
 directory.
 
-Configuration Configure your server settings such as port and static file directory by
-editing the Config.toml file (if applicable). Usage After starting the server, it will
-listen for incoming HTTP requests. You can interact with the server using any HTTP client,
-such as curl or Postman, or by accessing it through a web browser.
+Configuration Configure your server by setting the .env variable PUBLIC_PATH. Usage After
+starting the server, it will listen for incoming HTTP requests. You can interact with the
+server using any HTTP client, such as curl or Postman, or by accessing it through a web
+browser.
 
 Example request:
 
